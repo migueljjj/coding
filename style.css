@@ -18,7 +18,7 @@ body {
 
 .navbar ul li p{
     position: relative;
-    top: 10px;
+    top: 5px;
     left: 0;
     right: 0;
     display: flex;
@@ -28,9 +28,131 @@ body {
 
 .ul li p{ 
       text-align: center;
-      padding: 50px 10px 10px 50px;
+      padding: 20px 10px 10px 20px;
       padding-inline-start: 40px 30px 30px 40px;
+      height: 20px 10px 10px 20px;
       text-decoration: 2px solid black;
-    
-
+      border-style: solid;
+      border-width: 5px 1px 1px 5px;
+      border-radius: 1em;
 }
+
+.html5 {
+    background-image: url(images/imagen\ html\ icono.png);
+    background-position: center;
+    background-size: 1px 2px;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    margin: 50px 10px 10px 50px;
+    padding: 50px 50px 50px 50px;
+}
+
+.css3 {
+        background-image: url(images/imagen\ css3\ icono.jpg);
+        background-position: center;
+        background-size: 1px 2px;
+        background-repeat: no-repeat;
+        background-blend-mode: darken;
+        margin: 50px 10px 10px 50px;
+        padding: 50px 50px 50px 50px;
+    }
+
+.sass {
+        background-image: url(images/imagen\ sass\ icono.jpg);
+        background-position: center;
+        background-size: 1px 2px;
+        background-repeat: no-repeat;
+        background-blend-mode: darken;
+        margin: 50px 10px 10px 50px;
+        padding: 50px 50px 50px 50px;
+    }
+
+.bootstrap {
+        background-image: url(images/imagen\ bootstrap\ icono.jpg);
+        background-position: center;
+        background-size: 1px 2px;
+        background-repeat: no-repeat;
+        background-blend-mode: darken;
+        margin: 50px 10px 10px 50px;
+        padding: 50px 50px 50px 50px;
+    }
+
+.javascript{
+        background-image: url(images/imagen\ javascript\ icono.jpg);
+        background-position: center;
+        background-size: 1px 2px;
+        background-repeat: no-repeat;
+        background-blend-mode: darken;
+        margin: 50px 10px 10px 50px;
+        padding: 50px 50px 50px 50px;
+    }
+
+.framethree {
+        background-image: url(images/imagen\ three.js\ icono.jpg);
+        background-position: center;
+        background-size: 1px 2px;
+        background-repeat: no-repeat;
+        background-blend-mode: darken;
+        margin: 50px 10px 10px 50px;
+        padding: 50px 50px 50px 50px;
+    }
+
+.php{
+        background-image: url(images/imagen\ php\ icono.jpg);
+        background-position: center;
+        background-size: 1px 2px;
+        background-repeat: no-repeat;
+        background-blend-mode: darken;
+        margin: 50px 10px 10px 50px;
+        padding: 50px 50px 50px 50px;
+    }
+
+.framenode{
+        background-image: url(images/imagen\ node.js\ icono.jpg);
+        background-position: center;
+        background-size: 1px 2px;
+        background-repeat: no-repeat;
+        background-blend-mode: darken;
+        margin: 50px 10px 10px 50px;
+        padding: 50px 50px 50px 50px;
+    }
+
+.jquery{
+        background-image: url(images/imagen\ jquery\ icono.jpg);
+        background-position: center;
+        background-size: 1px 2px;
+        background-repeat: no-repeat;
+        background-blend-mode: darken;
+        margin: 50px 10px 10px 50px;
+        padding: 50px 50px 50px
+        } 
+
+  .angular17{
+        background-image: url(images/imagen\ angular17\ icono.jpg);
+        background-position: center;
+        background-size: 1px 2px;
+        background-repeat: no-repeat;
+        background-blend-mode: darken;
+        margin: 50px 10px 10px 50px;
+        padding: 50px 50px 50px 50px;
+    }
+
+.framevue{
+        background-image: url(images/imagen\ vue.js\ icono.jpg);
+        background-position: center;
+        background-size: 1px 2px;
+        background-repeat: no-repeat;
+        background-blend-mode: darken;
+        margin: 50px 10px 10px 50px;
+        padding: 50px 50px 50px 50px;
+    }
+
+.framereact {
+        background-image: url(images/imagen\ react.js\ icono.jpg);
+        background-position: center;
+        background-size: 1px 2px;
+        background-repeat: no-repeat;
+        background-blend-mode: darken;
+        margin: 50px 10px 10px 50px;
+        padding: 50px 50px 50px 50px;
+    }
