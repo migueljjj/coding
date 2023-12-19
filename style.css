@@ -1,13 +1,13 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 5px;
+    padding: 1px;
     font-family: cursive;
     font-size: medium;
     
 }
 
 body {
-    background-color: cornsilk;
+    background-color: rgb(4, 76, 170);
 
 }
 
