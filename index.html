@@ -6,6 +6,7 @@
     <title>Dragon</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/015daab9b5.js" crossorigin="anonymous"></script>
+    <script src="script.js" ></script>
 </head>
 <body>
     <header>
@@ -281,6 +282,30 @@
                </div>
                </section>
     </section>
+    <section class="language-section">
+        <div class="container">
+           <h2>Ejercises</h2>
+           <div class="ejercicio-container">
+              <p>realise ejercises:</p>
+              <div id="ejercicio" contenteditable="true">¡write your answer and doubts here!</div>
+              <button onclick="verificarRespuesta()">check out</button>
+              <p id="resultado"></p>
+           </div>
+           <div id="video-container"></div>
+
+           <!-- Botón para iniciar el proceso de compartir pantalla -->
+           <button onclick="iniciarCompartirPantalla()">share</button>
+       
+           <!-- Ejercicio autodidacta -->
+           <section class="ejercicio-container">
+               <p>realise next ejercise:</p>
+               <div id="ejercicio" contenteditable="true">¡write your answer and doubts here!</div>
+               <button onclick="verificarRespuesta()">check out</button>
+               <p id="resultado"></p>
+        </div>       
+            </section>
+     </section>
+     
     <main>
         <div class="grid-container">
             <div class="grid-item">1 <img src="" alt=""></div>
