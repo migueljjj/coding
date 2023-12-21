@@ -2,9 +2,67 @@
     
     font-family: cursive;
     font-size: medium;
+    box-sizing: border-box;
+    font-family: fantasy;
+
+}
+
+.navbar {
+
+   
     
 }
 
+.logo {
+    width: 60px;
+    position: fixed;
+}
+/* Estilos para la lista en el costado derecho de la página */
+.first-ul {
+    text-align: right;
+}
+
+.first-ul ul {
+    list-style-type: none;
+    padding: 0;
+  display: inline-flex; /* Hace que los elementos de la lista sean horizontales */
+}
+
+.first-ul li {
+    text-transform: lowercase;
+    margin: 0 10px; /* Espaciado horizontal entre elementos */
+}
+
+.first-ul a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'fantasy', sans-serif;
+    font-size: larger;
+    transition: background-color 0.3s ease;
+}
+
+.first-ul a:hover {
+    background-color: #c70303d3;
+}
+
+
+.second-li {
+    position: relative;
+    top: 5px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+    margin: 20px 0;
+    text-align: center;
+    padding: 20px 10px 10px 20px;
+    padding-inline-start: 40px 30px 30px 40px;
+    height: 20px 10px 10px 20px;
+    list-style-type: none;
+    
+    
+}
 body {
     background-color: #f0f0f0;
     margin: 0;
@@ -18,32 +76,6 @@ body {
     margin: 20px;
 }
 
-.navbar {
-    text-align: center;
-}
-
-
-.navbar ul li p{
-    position: relative;
-    top: 5px;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: center;
-    z-index: 1000;
-    margin: 20px 0;
-}
-
-.ul li p{ 
-      text-align: center;
-      padding: 20px 10px 10px 20px;
-      padding-inline-start: 40px 30px 30px 40px;
-      height: 20px 10px 10px 20px;
-      text-decoration: 2px solid black;
-      border-style: solid;
-      border-width: 5px 1px 1px 5px;
-      border-radius: 1em;
-}
 .language-section {
     text-align: center;
     margin-top: 20px;
