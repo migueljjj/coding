@@ -64,12 +64,14 @@
     
 }
 body {
+    
     background-color: #f0f0f0;
     margin: 0;
     padding: 0;
     justify-content: center;
     align-items: center;
     height: 100vh
+    
 }
  
 #video-container {
@@ -276,3 +278,42 @@ body {
     margin: 10px 0;
  }
  
+
+ .footer {
+    text-align: center; /* Centra el texto en el footer */
+    padding: 20px; /* Agrega relleno alrededor del contenido del footer */
+    margin-top: 20px; /* Agrega margen superior al footer para separarlo del contenido superior */
+    background-color: #f4f4f4; /* Agrega un color de fondo al footer (puedes ajustar el color según tus preferencias) */
+}
+
+.links {
+    margin-bottom: 10px;
+}
+
+ .links ul {
+    padding: 0; /* Elimina el relleno predeterminado de la lista */
+    margin: 0; /* Elimina el margen predeterminado de la lista */
+    list-style-type: none; /* Elimina los puntos de la lista */
+    display: flex; /* Utiliza flexbox para alinear los elementos horizontalmente */
+    justify-content: center;
+}
+
+.links ul li {
+    margin-right: 10px; /* Agrega un margen derecho entre los elementos de la lista */
+}
+
+.links ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    color: #000;
+}
+
+.links ul li a:hover {
+    background-color: #ddd; /* Cambia el color de fondo al pasar sobre los enlaces */
+    color: #570707; /* Cambia el color del texto al pasar sobre los enlaces */
+}
+
+
