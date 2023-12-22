@@ -51,3 +51,18 @@ function verificarRespuesta() {
     resultadoElement.innerText = '¡Correct! o Incorrect. try again.';
 }
 
+
+    // Función para cambiar el video en la pantalla pequeña
+    function reproducirVideo(src) {
+        var videoContainer = document.getElementById('video-container');
+        videoContainer.innerHTML = '<video controls width="300"><source src="' + src + '" type="video/mp4">Tu navegador no soporta el tag de video.</video>';
+    }
+                                                                                                         
+    // Ejemplo: llamada a la función al hacer clic en un enlace
+    document.getElementById('downloaded-videos').addEventListener('click', function(event) {
+        if (event.target.tagName === 'SOURCE') {
+            var videoSrc = event.target.getAttribute('src');
+            reproducirVideo(videoSrc);
+        }
+    });
+
